@@ -1,0 +1,7 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Golob(2016)}]{golob_2016}
+Golob, A. 2016, The Mass of a Smartie
+
+\end{thebibliography}

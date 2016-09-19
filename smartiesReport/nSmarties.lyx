@@ -1,0 +1,705 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage[hmargin=2.5cm,vmargin=2.5cm]{geometry}
+\usepackage{layout}
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman charter
+\font_sans cmbr
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+The Number of Nestle Smarties in a Ping-Pong-Ball-Contaminated Mason Jar
+ Encountered in the PHYS 2300 Lab
+\end_layout
+
+\begin_layout Author
+Anneya Golob
+\end_layout
+
+\begin_layout Date
+September, 2016
+\end_layout
+
+\begin_layout Part*
+Abstract 
+\begin_inset CommandInset label
+LatexCommand label
+name "part:Abstract"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The number of Nestle Smarties contained in a standard 500 mL Mason jar which
+ also held 3 ping pong balls suitable for international competition was
+ sought in the PHYS 2300 laboratory.
+ Since it is against laboratory rules to bring food or drink into the laboratory
+ at any time, this quantity was found by [
+\series bold
+CONCISE EXPLANATION OF PROCEDURE
+\series default
+].
+ The number of Nestle Smarties contained in the jar was found to be 
+\begin_inset Formula $n_{\mathrm{Smarties}}\pm\sigma_{n_{\mathrm{Smarties}}}$
+\end_inset
+
+ [
+\series bold
+IN AGREEMENT OR NOT?
+\series default
+] with the true value of 193 Smarties.
+\end_layout
+
+\begin_layout Section
+Theory/Introduction
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Theory/Introduction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nestle Smarties are a sugar-coated chocolate candy available in Canada and
+ numerous other countries.
+ They are generally oblate spheroids with a minor axis of approximately
+ 5 mm and a major axis of approximately 12 mm, although individual candies
+ with a wide range of defects have been observed 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "golob_2016"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+During the first session of the PHYS 2300 lab, we competed in a contest
+ to accurately determine the number of Nestle Smarties, 
+\begin_inset Formula $n_{\mathrm{Smarties}}$
+\end_inset
+
+, in a Mason jar which also contained 3 ping pong balls.
+ To aid in the determination of the unknown quantity, a Fun Size box of
+ Nestle Smarties was provided (although - since food and drink are prohibited
+ in the lab - it proved to be of little use) in addition to an empty Mason
+ jar and tools to measure masses and distances...
+\end_layout
+
+\begin_layout Standard
+The number of Nestle Smarties in a ping-pong-ball-contaminated Mason jar
+ can be expressed as 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+n_{\mathrm{Smarties}}=\frac{m_{system}-m_{Mason\,jar}-3m_{ping\,pong\,Ball}}{m_{Smartie}}\label{eq:nSmarties}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $m_{Mason\,jar}$
+\end_inset
+
+ is the mass of an empty Mason jar, 
+\begin_inset Formula $m_{ping\,pong\,ball}$
+\end_inset
+
+ is the mass of a standard ping pong ball, 
+\begin_inset Formula $m_{Smartie}$
+\end_inset
+
+ is the mean mass of an individual Smartie candy, and 
+\begin_inset Formula $m_{system}$
+\end_inset
+
+ is the mass of the filled jar presented in the lab.
+\end_layout
+
+\begin_layout Section
+Apparatus & Procedure
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Apparatus-&-Procedure"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To determine the number of Nestle Smarties in the Mason jar, all variables
+ in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:nSmarties"
+
+\end_inset
+
+ needed to be measured and recorded with reasonable uncertainties.
+ The mass of the filled jar, 
+\begin_inset Formula $m_{system}$
+\end_inset
+
+, and the mass of an empty jar, 
+\begin_inset Formula $m_{Mason\:jar}$
+\end_inset
+
+, were determined using a mechanical mass balance.
+ The mass of a competition grade ping pong ball and the mass of an individual
+ Nestle Smartie were determined by ...
+ [WHAT DID YOU DO?]
+\end_layout
+
+\begin_layout Section
+Data & Analysis
+\end_layout
+
+\begin_layout Standard
+The results of the measurements and queries[?] described in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Apparatus-&-Procedure"
+
+\end_inset
+
+ are described in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:measurements"
+
+\end_inset
+
+.
+ Uncertainties in the measured quantities were estimated by ...
+ [INCLUDE ANY REASONING THAT WENT INTO YOUR CHOICE OF UNCERTAINTIES].
+ The values in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:measurements"
+
+\end_inset
+
+ were used in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:nSmarties"
+
+\end_inset
+
+ to determine the unknown number of Nestle Smarties in the Mason jar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Quantity
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Value
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Uncertainty 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{system}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+# g
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\sigma_{m_{system}}$
+\end_inset
+
+ g
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{ping\,pong\,ball}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{Mason\,jar}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $m_{Smartie}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:measurements"
+
+\end_inset
+
+Measured values of quantities required to determine the number of Nestle
+ Smarties in a ping-pong-ball-contaminated Mason jar.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Results & Discussion
+\end_layout
+
+\begin_layout Standard
+The number of Nestle Smarties in the Mason jar was found to be 
+\begin_inset Formula $X\pm Y$
+\end_inset
+
+ Smarties as demonstrated in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Sample-Calculations"
+
+\end_inset
+
+.
+ The uncertainty in this measurement was dominated by the uncertainty in
+ the mass of [WHAT?] because [WHY?].
+ The true value of 
+\begin_inset Formula $n_{Smarties}$
+\end_inset
+
+ was found to be 193, in [AGREEMENT/DISAGREEMENT?] with the estimated value.
+ The analysis performed in this lab was time-sensitive and limited by our
+ inability to legally isolate Nestle Smarties candies for individual inspection
+ because of laboratory regulations as outlined in the course syllabus.
+ Ideally, it would have been possible to [STUFF, THINGS].
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Standard
+The number of Nestle Smarties contained in a ping-pong-ball-contaminated
+ Mason jar was determined during a 1 hour period in the PHYS 2300 lab, where
+ food and drink are prohibited.
+ In light of the limitations of the scenario, the number was determined
+ by [VERY CONCISE EXPLANATION] and found to be 
+\begin_inset Formula $\#\pm\#$
+\end_inset
+
+, in [AGREEMENT/DISAGREEMENT] with the true value of 193 Smarties.
+ The accuracy and precision of the measurement were hampered by [CIRCUMSTANCES].
+ To improve on the estimate of 
+\begin_inset Formula $n_{Smarties}$
+\end_inset
+
+, ...
+ [WHAT YOU WOULD HAVE DONE TO DETERMINE THE NUMBER OF SMARTIES IN THE JAR
+ GIVEN UNLIMITED TIME AND MONEY].
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "smarties"
+options "bibtotoc,aa"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\start_of_appendix
+Appendices
+\end_layout
+
+\begin_layout Section
+Derivation of Uncertainty in 
+\begin_inset Formula $n_{Smarties}$
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:uncertainty"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Assuming Gaussian uncertainties, the uncertainty in Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:nSmarties"
+
+\end_inset
+
+ can be derived as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{n_{Smarties}}=\sqrt{\left(\frac{\partial n_{Smarties}}{\partial m_{system}}\right)^{2}\sigma_{m_{system}^{2}}+\left(\frac{\partial n_{Smarties}}{\partial m_{Mason\,jar}}\right)^{2}\sigma_{m_{Mason\,jar}}^{2}+\left(\frac{\partial n_{Smarties}}{\partial m_{ping\,pong\,ball}}\right)^{2}\sigma_{ping\,pong\,ball}^{2}+\left(\frac{\partial n_{Smarties}}{\partial m_{Smartie}}\right)^{2}\sigma_{Smartie}^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Partial derivatives with respect to each measured can be expressed as
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial n_{Smarties}}{\partial m_{system}}=$
+\end_inset
+
+ ...
+ ,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial n_{Smarties}}{\partial Mason\,jar}=$
+\end_inset
+
+ ...,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial n_{Smarties}}{\partial{}_{ping\,pong\,ball}}=$
+\end_inset
+
+..., and
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{\partial n_{Smarties}}{\partial Smartie_{system}}=$
+\end_inset
+
+...
+ .
+\end_layout
+
+\begin_layout Standard
+Substituting the partial derivatives into the uncertainty equation gives
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sigma_{n_{Smarties}}=\sqrt{\left(...\right)^{2}\sigma_{m_{system}^{2}}+\left(...\right)^{2}\sigma_{m_{Mason\,jar}}^{2}+\left(...\right)^{2}\sigma_{ping\,pong\,ball}^{2}+\left(...\right)^{2}\sigma_{Smartie}^{2}}.\label{eq:uncertaintyInNSmarties}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sample Calculations
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Sample-Calculations"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The number of Nestle Smarties in the Mason jar was calculated by substituting
+ the values in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:measurements"
+
+\end_inset
+
+ into Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:nSmarties"
+
+\end_inset
+
+ as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n_{\mathrm{Smarties}}=\frac{X-Y-Z}{W}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n_{\mathrm{Smarties}}=\#$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The uncertainty associated with the number of Nestle Smarties in the Mason
+ jar was calculated by substituting the values in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:measurements"
+
+\end_inset
+
+ into Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:uncertaintyInNSmarties"
+
+\end_inset
+
+ as follows:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{n_{Smarties}}=\sqrt{\left(...\right)^{2}\sigma_{m_{system}^{2}}+\left(...\right)^{2}\sigma_{m_{Mason\,jar}}^{2}+\left(...\right)^{2}\sigma_{ping\,pong\,ball}^{2}+\left(...\right)^{2}\sigma_{Smartie}^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\sigma_{n_{Smarties}}=\#.$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

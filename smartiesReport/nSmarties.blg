@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: nSmarties.aux
+The style file: aa.bst
+Database file #1: smarties.bib
+You've used 1 entry,
+            2947 wiz_defined-function locations,
+            652 strings with 4629 characters,
+and the built_in function-call counts, 303 in all, are:
+= -- 25
+> -- 11
+< -- 1
++ -- 6
+- -- 3
+* -- 18
+:= -- 65
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 5
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 15
+empty$ -- 21
+format.name$ -- 4
+if$ -- 52
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 4
+pop$ -- 4
+preamble$ -- 1
+purify$ -- 5
+quote$ -- 0
+skip$ -- 13
+stack$ -- 0
+substring$ -- 13
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 9
+warning$ -- 0
+while$ -- 3
+width$ -- 0
+write$ -- 12
