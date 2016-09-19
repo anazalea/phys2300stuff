@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 SEP 2016 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  19 SEP 2016 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,9 +202,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2] (./nSmarties.bbl [3])
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 159.
+(Font)              <17.28> on input line 158.
 
-Overfull \hbox (122.98735pt too wide) in paragraph at lines 164--165
+Overfull \hbox (122.98735pt too wide) in paragraph at lines 163--164
 []$\OML/cmm/m/it/12 ^^[[] \OT1/cmr/m/n/12 = []$ 
  []
 
@@ -229,7 +229,7 @@ usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
 cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on nSmarties.pdf (5 pages, 122109 bytes).
+Output written on nSmarties.pdf (5 pages, 122117 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
