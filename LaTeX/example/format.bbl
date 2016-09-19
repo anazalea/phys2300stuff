@@ -1,0 +1,12 @@
+\begin{thebibliography}{2}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{{Goldstein} {et~al.}(2012){Goldstein}, {Warren}, \&
+  {Ball}}]{2012PhRvL.108g8101G}
+{Goldstein}, R.~E., {Warren}, P.~B., \& {Ball}, R.~C. 2012, Physical Review
+  Letters, 108, 078101
+
+\bibitem[{Idle(2005)}]{pmid16007907}
+Idle, J.~R. 2005, Prague Med Rep, 106, 27
+
+\end{thebibliography}

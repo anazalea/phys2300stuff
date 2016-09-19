@@ -1,0 +1,770 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage[hmargin=2.5cm,vmargin=2.5cm]{geometry}
+\usepackage{layout}
+\usepackage{indentfirst}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman charter
+\font_sans cmbr
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+About Those Lab Reports: A Guide to Formatting
+\end_layout
+
+\begin_layout Author
+Anneya Golob
+\end_layout
+
+\begin_layout Date
+January, 2016
+\end_layout
+
+\begin_layout Part*
+Abstract 
+\end_layout
+
+\begin_layout Standard
+This is where you should write a quick summary of your experiment and most
+ interesting results.
+ In the real world, the 
+\series bold
+Abstract
+\series default
+ (and probably
+\series bold
+ Conclusions
+\series default
+ too) will often be the only section people read so it's important to make
+ it concise and pack a powerful scientific punch.
+ Think of it as a trailer full of spoilers for a movie so incredibly awesome
+ that you still want to pay money to see the whole thing.
+ If you have numerical results it's a good idea to include them.
+\end_layout
+
+\begin_layout Standard
+As an example, here is the abstract from 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "pmid16007907"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "90text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\align block
+
+\shape italic
+\size small
+The typical spices used in winter include nutmeg, cinnamon, clove and anise.
+ These spices contain two groups of chemicals, the allylbenzenes and their
+ isomers, the propenylbenzenes.
+ It was suggested 40 years ago by Alexander Shulgin that these substances
+ act as metabolic precursors of amphetamines.
+ The biotransformation of these precursors to nitrogen-containing metabolites
+ is reviewed.
+ These reactions have not been reported in humans.
+ Whether or not the pharmacology and toxicology of spices such as nutmeg
+ can be explained on the basis of their allylbenzene or propenylbenzene
+ content is speculative.
+ Humans may be exposed to amphetamines derived from these precursors in
+ forno, the formation during baking and cooking, for example in the preparation
+ of Lebkuchen, or Christmas gingerbread.
+ It is possible that this may be responsible, in part, for uplifting our
+ mood in winter.
+ However, the role of these aromatic substances, acting simply as odours,
+ evoking old memories of winters past, cannot be ignored.
+ Whether spices have a true pharmacological effect or they act as aromatherapy
+ remains to be elucidated through clinical and laboratory studies.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Theory/Introduction
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+In this section you want to summarize the history of the field that motivated
+ your particular experiment and explain the basic theory you use to design
+ the procedure and interpret the results.
+ Include references where appropriate.
+ 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+As an example, here is the introduction from 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "2012PhRvL.108g8101G"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\paragraph_spacing single
+\align block
+
+\shape italic
+\size small
+One of the most familiar features of a bundle of hair such as a ponytail
+ is its `body' or `volume.' Close examination reveals that this property
+ arises in a subtle way from the stiffness and shapes of the individual
+ fibers, whose meandering paths through the bundle produce many collisions
+ with other hairs.
+ These meanderings are in part a consequence of the contacts themselves,
+ but hairs also have an intrinsic waviness or curliness.
+ Such curvatures may be generated during growth, and vary with ethnicity.
+ They are clearly also modied by chemical, thermal, and mechanical forces,
+ as in the `water wave' treatment, or a `perm'.
+ From Leonardo to the Brothers Grimm our fascination with hair has endured
+ in art and science.
+ Yet, we still do not have an answer to perhaps the simplest question that
+ captures the competing eects of lament elasticity, gravity, and mutual
+ interactions: 
+\shape slanted
+What is the shape of a ponytail?
+\shape italic
+ Note that the average human has 
+\begin_inset Formula $10^{5}$
+\end_inset
+
+ head hairs, so if even a modest fraction is gathered into a ponytail, the
+ number involved is enormous: this is a problem in statistical physics.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At this point, you might want to include equations to clearly explain the
+ theory behind your procedure.
+ Later in their paper, 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "2012PhRvL.108g8101G"
+
+\end_inset
+
+ describe the equation of state (EOS)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+It's fine if you use abbreviations or initialisms in your document as long
+ as you define them the first time they're used.
+ 
+\end_layout
+
+\end_inset
+
+ of the ponytail using their proposed definition of the energy of an axisymmetri
+c bundle of hair fibers:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\varepsilon\left[\rho,{\bf {t}}\right]=d^{3}\mathrm{{\bf {r}}}\rho\left(\frac{1}{2}A\kappa^{2}+\varphi({\bf {r}})+\left\langle u\right\rangle \right),\label{eq:pony}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\kappa=\left|\left({\bf t\cdot{\bf \nabla}}\right){\bf t}\right|$
+\end_inset
+
+ is the curvature field.
+ The terms in Eqn.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:pony"
+
+\end_inset
+
+ are the elastic energy of mean curvature, the bending modulus 
+\begin_inset Formula $A$
+\end_inset
+
+, the external ( e.g.
+ gravitational) potential 
+\begin_inset Formula $\varphi$
+\end_inset
+
+, and a fiber connement energy per unit length 
+\begin_inset Formula $\left\langle u\right\rangle $
+\end_inset
+
+ that aggregates all terms involving disorder, such as contacts and natural
+ curvatures.
+ 
+\end_layout
+
+\begin_layout Standard
+Notice that the equation is centered, numbered and because it's part of
+ the sentence, includes punctuation where appropriate.
+ Most word processors are capable of automatically dealing with equation
+ formatting.
+ If you want to continue in upper year science courses and beyond, you'll
+ want to start using LaTeX to format your documents sometime soon.
+\end_layout
+
+\begin_layout Section
+Apparatus & Procedure
+\end_layout
+
+\begin_layout Standard
+This is where you talk about what physical stuff and/or software you used
+ in your experiment and how you used it.
+ This section should 
+\series bold
+not
+\series default
+ include your results.
+ Your goal here is to explain everything thoroughly enough for a reader
+ to know how to precisely reproduce your procedure.
+ To accomplish this, you'll want to include every tiny detail that might
+ be relevant while taking care to state things plainly and be as concise
+ as possible.
+\end_layout
+
+\begin_layout Standard
+Feel free to add figures or tables that enhance and clarify the explanations
+ you provide in writing.
+ Note that all figures and tables require a caption.
+ These are easy to add in LaTeX and most word processors.
+ Make sure that all figures you include get mentioned in the text.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename solvay.jpg
+	lyxscale 15
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ras"
+
+\end_inset
+
+This is a picture of my dog, Rasalhague, attending the 1927 Solvay International
+ Conference on Electrons and Photons.
+ You'll probably want to include figures that show more circuit diagrams
+ and fewer dogs, but dogs are always welcome.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="right" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Item
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Known Occurences
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hat
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Everyday sock
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pair of soccer socks
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wrapped granola bar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dirty Kleenex
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+600
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stick
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+300
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bowl of dog food
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3284$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Danaerys Targaryen keychain
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Platter of smoked salmon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:stuffrasate"
+
+\end_inset
+
+Stuff my dog ate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+A Subsection
+\end_layout
+
+\begin_layout Standard
+You can add subsections to organize the content of your report.
+\end_layout
+
+\begin_layout Section
+Data & Analysis
+\end_layout
+
+\begin_layout Standard
+Now that you've described the finicky details of your procedure, it's time
+ to talk about the data it yielded and what you did with them.
+ Describe any statistical methods you used to understand your data and state
+ all of your numerical results.
+ Show off all the plots you made with figures, as described in Section 2.
+ You can always refer to things you've labelled in the document, like Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:ras"
+
+\end_inset
+
+, Equation 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:pony"
+
+\end_inset
+
+, and Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:stuffrasate"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The PHYS 2400 lab manual includes specific Analysis Questions throughout.
+ They should serve as prompts for things that you'll definitely want to
+ touch on as you explain your analysis and results (some of these points
+ might belong in the Results and Discussion section, you can go ahead and
+ put them there if it feels right.) These points should come up organically
+ as you write, but I'm sure Sam will appreciate if you point out places
+ where you're answering a question posed in the manual using footnotes
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+This is a footnote.
+ It's easy to format using LaTeX or your WYSIWYG word processor of choice.
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Results & Discussion
+\end_layout
+
+\begin_layout Standard
+Here, you need to summarize the results of your analysis and interpret them.
+ Is there anything weird going on? Talk about how accurate your results
+ are and what you could do to improve accuracy and minimize uncertainty.
+ Discuss the implications of what you've found on the field and what should
+ be considered next, science-wise, to advance the state of human knowledge,
+ explore the phenomenon more deeply etc.
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Standard
+Like I said in the Abstract, there's a good chance that this is one of the
+ only things people might read (fortunately for you, we'll pore over every
+ word of your lab reports in order to grade you fairly) so you need to make
+ it count! Summarize your important results (again), figure out what final
+ conclusions you can draw from them and how these conclusions fit into the
+ related science that's been done by other people (and maybe you!) 
+\end_layout
+
+\begin_layout Standard
+Science Achieved.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "format"
+options "bibtotoc,aa"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+\start_of_appendix
+Appendices
+\end_layout
+
+\begin_layout Section
+Sample Calculations
+\end_layout
+
+\begin_layout Standard
+Here, we'll want to see examples of all the non-trivial calculations you
+ made during the lab and derivations used to propagate uncertainties.
+\end_layout
+
+\end_body
+\end_document
