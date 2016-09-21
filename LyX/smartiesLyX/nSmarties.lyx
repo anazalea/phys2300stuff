@@ -580,7 +580,7 @@ Partial derivatives with respect to each measured can be expressed as
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\frac{\partial n_{Smarties}}{\partial m_{system}}=$
+\begin_inset Formula $\frac{\partial n_{Smarties}}{\partial m_{system}}=\iint\star\chi$
 \end_inset
 
  ...
